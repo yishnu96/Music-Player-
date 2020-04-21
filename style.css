@@ -1,0 +1,241 @@
+:root{
+	--mcolor: rgb(21,170, 191);	 	
+	background-image: linear-gradient(to bottom, #151031, #19163c, #1c1c47, #1f2253, #21285f);
+	color: rgb(28,204,210);
+	/*#1cccd2*/
+};
+
+body{
+	margin: 0px;	
+	padding: 0px;
+	width: 100%;
+	font-family: Tahoma, Geneva, sans-serif;
+	
+}
+h2{
+	text-decoration: underline 0.5px;
+}
+
+/*----------------------------header-------------*/
+header{
+	display: inline-block;
+	/*height: 11rem;*/
+	width: 100%;
+	margin-top: 3rem;
+	/*border: 1px solid;*/
+	/*background-color: black;*/
+	font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+nav div{
+	display: inline;
+	vertical-align: top;
+}
+
+.top div img{
+	height: 9rem;
+	width: auto;
+	position: relative;
+	top: -3rem;
+	/*padding: 2rem;*/
+	/*padding-right: 0px;*/
+}
+
+#Search input{
+	height: 2.5rem;
+	width: 20%;
+	border-radius: 50px;
+	position: relative;
+	margin-left: 36%;
+	/*opacity: 0.5;*/
+	font-size: 1.5rem;
+	border-color: turquoise;
+	color: rgb(28,204,210);
+	border: solid 4.8px;
+
+}
+.fa-search{
+	position: relative;
+	left: -2.7%;
+	font-size: 1.5rem;
+}
+.fa-user{
+	font-size: 2.5rem;
+}
+
+.fa-list-ul{
+	font-size: 2.5rem;
+	padding-right: 1rem;
+}
+
+#name{
+	font-size: xxx-large;
+	color: rgb(28,204,210);
+	font-weight: bolder;
+}
+
+/*--------------------main------------------------------*/
+main{
+	margin: 5rem;
+	margin-right: 2rem;
+	margin-top: 0px;
+	width: 70%;
+	display: inline-block;
+	font-family: Tahoma, Geneva, sans-serif;
+	/*width: 75%*/
+}
+
+
+/*----------------------------genres corner-------------------------------------*/
+.genres{
+	display: flex;
+	height: 15rem;
+	margin-bottom: 3rem;
+}
+
+.genres div{
+	/*border: 2px solid;*/
+	margin-right: 15px;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+	transition: transform .8s;
+	filter: blur(1px);
+
+}
+
+.genres div:hover{
+	opacity: 1;
+	filter: 150%;
+	transform:scale(1.2);
+	filter: blur(0px);
+}
+
+
+
+.genres div p{
+	font-size: xx-large;
+	font-weight: bold;
+	/*letter-spacing: 0.2rem;*/
+	color: lightseagreen;
+	text-align: center;
+	padding-top: 4rem;
+}
+
+.g1{
+	flex: 1;
+	background-image: url(image/breakreate-A_IfOgYEQU4-unsplash.jpg);
+
+}
+
+.g2{
+	flex: 1;
+	background-image: url(image/chris-bair-A10y2Eq7OHY-unsplash.jpg);
+}
+
+.g3{
+	flex: 1;
+	background-image: url(image/greg-weaver-X5xdjEsf-s0-unsplash.jpg);
+}
+
+.g4{
+	flex: 1;
+	background-image: url(image/joel-muniz-RLH_Wmlnj2k-unsplash.jpg);
+	margin-right: 0px ;
+}
+
+
+/*----------------------------------Artist------------------------------------------*/
+
+.Artist{
+	display: flex;
+	height: 7rem;
+	margin-bottom: 4rem;
+}
+.Artist div{
+	/*border: 2px solid;*/
+	flex: 1;
+	border-radius: 50%;
+	margin-right: 2rem;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	opacity: 0.8;
+	transition: all 0.4s;
+}
+
+.Artist div:hover{
+	opacity: 1;
+	filter: drop-shadow(6px 6px 6px #1cccd2) saturate(1) brightness(130%);
+}
+
+.Artist div p{
+	color: rgba(28,204,210,0.8);
+	padding-top: 6.5rem;
+}
+
+/*-----------------------------moods----------------------------*/
+
+.Moods{
+	display: flex;
+	height: 10rem;
+}
+.Moods div{
+	/*border: 1px solid;*/
+	flex: 1;
+	margin-right: 5px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 2%;
+	opacity: 0.8;
+	filter: blur(1px);
+	transition: all .6s;
+}
+
+.Moods div:hover{
+	opacity: 1px;
+	filter: blur(0px) drop-shadow(8px 8px 10px #1cccd2);
+	transform: scale(1.2);
+	/*#1cccd2*/
+}
+
+.Moods div p{
+	text-align: center;
+	padding: 2rem;
+	font-size: xx-large;
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+	color: lightseagreen;
+
+}
+
+/*--------------------Songs-----------------*/
+.Songs{
+	display: flex;
+	height: 7.5rem;
+	margin-bottom: 3rem;
+}
+
+.Songs li{
+	/*border: 2px solid;*/
+	margin-right: 15px;
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	list-style: none;
+	border-radius: 10%;
+	background-size: cover;
+	background-position: center;
+	transition: all 0.2s;
+}
+
+.Songs li:hover{
+	filter: drop-shadow(6px 6px 6px #1cccd2);
+	/*<i class="far fa-play"></i>*/
+}
+
+.Songs li p{
+	padding-top: 6.5rem;
+	text-align: center;
+}

@@ -1,0 +1,57 @@
+aside{
+
+	width: 22%;
+	display: inline-block;
+	/*background-color: grey;*/
+	vertical-align: top;
+	padding-top: -1rem;
+	/*margin-top: 5rem;*/
+	font-family: Tahoma, Geneva, sans-serif;
+}
+/*---------------------------Header----------------------------*/
+.aheader{
+	border-bottom: 1px solid;
+	border-block-style: ridge;
+	border-top: double;
+}
+
+.aheader h3{
+	font-size: x-large;
+	transform: 1.9s;
+}
+
+.aheader h3 i{
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+.aheader h3:hover{
+	text-decoration: underline;
+	transform: 1.9s;
+}
+
+/*-----------------------------QUEUE-----------------------------------*/
+
+.Queue li{
+	list-style: none;
+	display: flex;
+	margin-bottom: 1.5rem;
+	height: 5rem;
+	width: 100%;
+}
+.Queue li p{
+/*	position: relative;
+	bottom: -2rem;
+	right: 2.5rem;*/
+	display: contents;
+	font-weight: lighter;
+}
+.Queue li img{
+	width: 5.5rem;
+	margin-right: 1rem;
+}
+.Queue li h4{
+	padding-top: 1rem;
+	display: contents;
+	font-size: larger;
+}

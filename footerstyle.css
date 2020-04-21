@@ -1,0 +1,76 @@
+footer{
+	display: flex;
+	height: 5rem;
+	width: 100%;
+	/*position: fixed;*/
+	/*border: solid;*/
+	/*background-color: grey;*/
+	position: fixed;
+	bottom: 0px;
+	/*background-image: linear-gradient(to bottom, #151031, #00305b, #00516d, #006f5b, #2d882f);*/
+	/*background-image: linear-gradient(to bottom, #151031, #1d1a45, #24255a, #293171, #2d3d88);*/
+	background-image: linear-gradient(to bottom, #151031, #001c38, #002538, #002c35, #153232);
+}
+
+#imglogo{
+	height: 95%;
+	margin-left: 1rem;
+	vertical-align: middle;
+	padding-top: 0.2rem;
+}
+.fa-heart{
+	font-size: x-large;
+	margin-left: 1rem;
+	vertical-align: middle;
+
+}
+.progress{
+	height: 10px;
+	width: 45%;
+	position: fixed;
+	bottom: 1rem;
+	left: 22rem;
+}
+#pannel
+{
+	position: fixed;
+	left: 33rem;
+	bottom: 2.5rem;
+}
+
+#pannel i{
+	font-size: xx-large;
+	padding-left: 1rem;
+}
+
+#vol{
+	height: 12px;
+
+position: relative;
+
+left: 52rem;
+
+bottom: -1rem;
+}
+
+.fa, .fas {
+
+    font-weight: 900;
+    font-size: xx-large;
+
+}
+.f i {
+
+    font-size: x-large;
+    padding-right: 1rem;
+    position: relative;
+    left: 53rem;
+    top: 1.5rem;
+}
+.fa-volume-up{
+	position: relative;
+
+left: 51.5rem;
+
+top: 1.5rem;
+}
