@@ -9,6 +9,10 @@
 	border-bottom: 1px ridge;
 }
 
+.blist li h6:hover{
+	background-image: <i class="fas fa-play-circle"></i>;
+}
+
 .blist li img{
 	width: 3rem;
 	height:3.5rem;

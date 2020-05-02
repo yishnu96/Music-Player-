@@ -1,12 +1,13 @@
 aside{
 
-	width: 22%;
+	width: 23%;
 	display: inline-block;
 	/*background-color: grey;*/
 	vertical-align: top;
 	padding-top: -1rem;
 	/*margin-top: 5rem;*/
 	font-family: Tahoma, Geneva, sans-serif;
+	overflow: auto;
 }
 /*---------------------------Header----------------------------*/
 .aheader{
